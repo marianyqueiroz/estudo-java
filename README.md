@@ -11,11 +11,10 @@
         * `substring()`: Extrair uma substring
         * `contains()`: Verificar se uma string está em outra
         * `replace()`: Substituir uma string por outra
+          ```java
 
-```java
-
-class Main {
-  public static void main(String[] args) {
+    class Main {
+    public static void main(String[] args) {
     String valor = "Descomplica - Java";
 
     System.out.println(valor.contains("Java"));
@@ -23,11 +22,14 @@ class Main {
   }
 }
 ```
-
-
 * **Número inteiro:** `int`
 * **Boleano:** `boolean`
 * **Ponto flutuante:** `double`
+
+
+
+
+
   
 
 
