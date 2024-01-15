@@ -13,7 +13,6 @@
         * `replace()`: Substituir uma string por outra
 
 ```java
-# Exemplo de código Java
 
 class Main {
   public static void main(String[] args) {
@@ -23,6 +22,7 @@ class Main {
     System.out.println(valor.length());
   }
 }
+
 
 * **Número inteiro:** `int`
 * **Boleano:** `boolean`
