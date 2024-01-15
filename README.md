@@ -12,7 +12,9 @@
         * `contains()`: Verificar se uma string está em outra
         * `replace()`: Substituir uma string por outra
 
-        ```java
+```java
+# Exemplo de código Java
+
 class Main {
   public static void main(String[] args) {
     String valor = "Descomplica - Java";
@@ -21,7 +23,6 @@ class Main {
     System.out.println(valor.length());
   }
 }
-´´´
 
 * **Número inteiro:** `int`
 * **Boleano:** `boolean`
