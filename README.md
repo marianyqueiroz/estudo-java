@@ -1,4 +1,3 @@
-# estudo-java
 # Fundamentos da programação em Java
 
 ## Variáveis e tipos de dados
