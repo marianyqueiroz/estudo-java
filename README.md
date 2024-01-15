@@ -54,11 +54,11 @@ public class Main {
 
 # Operadores aritméticos
 
-`+` soma
-`-` subtração 
-`*` multiplicação
-`/` divisão
-`%` módulo/resto da divisão
+* Soma `+` 
+* Subtração `-`  
+* Multiplicação `*` 
+* Divisão `/` 
+* Módulo/resto da divisão `%` 
 
 ```java
 class Main {
