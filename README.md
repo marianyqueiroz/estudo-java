@@ -22,6 +22,7 @@ class Main {
     System.out.println(valor.length());
   }
 }
+```
 
 
 * **Número inteiro:** `int`
