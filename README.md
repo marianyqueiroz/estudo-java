@@ -109,15 +109,15 @@ class Main {
 ```
 # Estruturas Condicionais
 ## Operadores Lógicos
-`>`: Maior que
-`<`: Menor que
-`==`: Igual
-`!=`: Diferente de
-`>=`: Maior ou igual a
-`<=`: Menor ou igual a
-`&&`: E
-`||`: Ou
-`!`: Negação
+* `>`: Maior que
+* `<`: Menor que
+* `==`: Igual
+* `!=`: Diferente de
+* `>=`: Maior ou igual a
+* `<=`: Menor ou igual a
+* `&&`: E
+* `||`: Ou
+* `!`: Negação
 
 ```
 public class Main {
