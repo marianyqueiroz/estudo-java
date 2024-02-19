@@ -242,6 +242,103 @@ public class Main {
 }
 ```
 
+# Estrutura de repetição
+## For
+
+```
+public class Main {
+  public static void main(String[] args) {
+    //repetição
+    for(int cont = 0; cont < 10; cont++){
+      System.out.println("oi");
+    }
+
+    //repetição com o valor
+    for(int cont = 0; cont < 10; cont++){
+      System.out.println("oi " + cont);
+    }
+
+    //Números de 5 a 20
+    for(int cont = 5; cont <= 20; cont++){
+      System.out.println("Números de 5 a 20 " + cont);
+    }
+  }
+}
+```
+
+## While
+Enquanto for true, a estrutura de repetição em questão irá executar.
+
+```
+import java.util.Scanner;
+
+public class Main {
+  public static void main(String[] args) {
+    int opcao = 0;
+    while(opcao != 99){
+      System.out.println("Digite um valor qualquer, ou 99 para sair.");
+      Scanner entrada = new Scanner(System.in);
+      opcao = entrada.nextInt();
+    }
+  }
+}
+```
+
+### Do / While
+
+```
+import java.util.Scanner;
+
+public class Main {
+  public static void main(String[] args) {
+   int opcao;
+
+    do{
+      System.out.println("Digite o valor 99 para sair");
+      Scanner entrada = new Scanner(System.in);
+      opcao = entrada.nextInt();
+    } while(opcao != 99);
+  }
+}
+```
+
+## Estrutura de repetição aninhada
+
+```
+public class Main {
+  public static void main(String[] args) {
+    for(int i = 0; i <= 10; i++)
+      for(int j = 0; j <= 10; j++)
+        System.out.println(i + " x " + j + " = " + (i*j));
+  }
+}
+
+//i   j
+//1 x 0 = 0 
+//1 x 1 = 1
+//1 x 2 = 2
+```
+
+## Método
+O método é um bloco de código que executa uma tarefa específica
+*Exemplo
+ - `class`: dar forma/gerar o objeto;
+ - `public`: modificador de acesso.
+
+```
+public class Main {
+  public static int  somar(int a, int b){
+    return (a+b);
+  }
+  public static void main(String[] args) {
+    int total = Main.somar(10, 50);
+    System.out.println(total);
+  }
+}
+```
+
+
+
 
 
 
