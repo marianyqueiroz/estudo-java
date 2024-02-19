@@ -107,8 +107,140 @@ class Main {
     System.out.println(area);
   }
 ```
+# Estruturas Condicionais
+## Operadores Lógicos
+`>`: Maior que
+`<`: Menor que
+`==`: Igual
+`!=`: Diferente de
+`>=`: Maior ou igual a
+`<=`: Menor ou igual a
+`&&`: E
+`||`: Ou
+`!`: Negação
 
-continuação
+```
+public class Main {
+  public static void main(String[] args) {
+    int a, b;
+    a = 4;
+    b = 8;
+
+    System.out.println(a > b);  
+    //Resposta: false
+    System.out.println(a > b || b == 8);
+    //Resposta: true
+    System.out.println(a > b && b == 8);
+    //Resposta: false
+  }
+}
+```
+## Estrutura condicional simples
+
+```
+public class Main {
+  public static void main(String[] args) {
+    //Notas de faculdade
+    int nota = 6;
+
+    if(nota >= 5){
+      System.out.println("O aluno está provado");          
+      System.out.println("Parabéns!");
+    }
+  }
+}
+```
+## Estrutura condicional composta
+
+```
+public class Main {
+  public static void main(String[] args) {
+    //int nota = 6;
+    int nota = 2;
+
+    if(nota >= 5){
+      System.out.println("O aluno foi aprovado");
+    } else {
+      System.out.println("O aluno foi reprovado");  
+    }
+  }
+}
+```
+
+## Estrutura condicional aninhada
+
+```
+public class Main {
+  public static void main(String[] args) {
+    //int nota = 6;
+    //int nota = 4;
+    int nota = 2;
+
+    if( nota >= 5 ){
+      System.out.println("O aluno foi aprovado");
+    } else if( nota > 3 && nota < 5 ){
+      System.out.println("O aluno está de recuperação");
+    } else {
+      System.out.println("O aluno foi reprovado");
+    }
+  }
+}
+```
+
+## Estrutura de múltipla escolha
+
+```
+import java.util.Scanner;
+
+public class Main {
+  public static void main(String[] args) {
+    Scanner entrada = new Scanner(System.in);
+    System.out.println("Escolha uma opção: ");
+    System.out.println("1 - Cadastro de Aluno: ");
+    System.out.println("2 - Cadastro de Nota: ");
+    System.out.println("3 - Listar Aluno e Nota");
+
+    int numero = entrada.nextInt();
+
+    switch(numero){
+      case 1:
+        System.out.println("Vamos cadastrar o aluno");
+      break;
+      case 2:
+        System.out.println("Camos cadastrar a nota");
+      break;
+      case 3:
+        System.out.println("Listar aluno e nota");
+      break;
+      default:
+        System.out.println("O número é inválido");
+    }
+  }
+}
+```
+
+```
+//Exemplo prático
+import java.util.Scanner;
+import java.util.Random;
+
+public class Main {
+  public static void main(String[] args) {
+    Random gerador = new Random();
+    int x = gerador.nextInt(100);
+
+    Scanner entrada = new Scanner(System.in);
+    System.out.println("Adivinhe o número que estou pensando");
+    int numero = entrada.nextInt();
+
+    if( numero == x ){
+      System.out.println("Parabéns, você acertou! Eu pennsei no " + x);
+    } else {
+      System.out.println("Você errou! Eu pensei no " + x);
+    }
+  }
+}
+```
 
 
 
