@@ -372,6 +372,37 @@ public class Main {
 ```
 
 ###Exemplo prático
+```
+public class Main {
+  public static void main(String[] args) {
+    int[] passarosPorDia = {2, 5, 0, 7, 4, 1, 3, 0, 2, 5, 0, 1, 2, 1};
+
+    int totalPassaros = 0;
+    int passarosPrimeiraSemana = 0;
+    int passarosSegundaSemana = 0;
+
+    // Total de pássaros
+    for(int i = 0; i < 14; i++){
+      totalPassaros = totalPassaros + passarosPorDia[i];
+    }
+    System.out.println("Total de pássaros: " + totalPassaros);
+
+    // Total de pássaros na primeira semana
+    for(int i = 0; i < 7; i++){
+      passarosPrimeiraSemana = passarosPrimeiraSemana + passarosPorDia[i];
+    }
+    System.out.println("Total de pássaros na primeira semana: " + passarosPrimeiraSemana);
+
+    // Total de pássaros na segunda semana
+    for(int i = 7; i < 14; i++){
+      passarosSegundaSemana = passarosSegundaSemana + passarosPorDia[i];
+    }
+    System.out.println("Total de pássaros na segunda semana: " + passarosSegundaSemana);
+  }
+}
+```
+
+
 
 
 
