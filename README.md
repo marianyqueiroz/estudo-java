@@ -336,8 +336,42 @@ public class Main {
   }
 }
 ```
+# Vetores e Matrizes
+## Vetor
+O vetor é nada mais do que uma varável que guarda vários valores, como se fosse um prédio com vários andares.
+```
+public class Main {
+  public static void main(String[] args) {
+    int valor;
+    int[] dados = new int[5];
 
+    dados[2] = 9;
+    dados[3] = 7;
+    dados[0] = 6;
 
+    System.out.println(dados[3]);
+    System.out.println(dados[2]);
+    System.out.println(dados[0]);
+    System.out.println(dados);
+  }
+}
+```
+
+## Matriz
+```
+public class Main {
+  public static void main(String[] args) {
+    int valor;
+    int[][] dados = new int[3][3];
+
+    for(int i=0; i<3; i++)
+        for(int j=0; j<3; j++)
+          System.out.println(dados[i][j] = j);
+  }
+}
+```
+
+###Exemplo prático
 
 
 
