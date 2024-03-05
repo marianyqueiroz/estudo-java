@@ -402,7 +402,6 @@ public class Main {
 }
 ```
 
-## Matriz
 ```
 public class Main {
   public static void main(String[] args) {
@@ -472,7 +471,36 @@ estados.remove("São Paulo");
 ```
 estados.contains("Amazonas");
 ```
+### Exemplo Prático
 
+```
+import java.util.ArrayList;
+
+public class Main {
+  public static void main(String[] args) {
+    ArrayList<String> bandas = new ArrayList<String>();
+
+    // Para adicionar bandas à lista
+    bandas.add("O Terno");
+    bandas.add("Terno rei");
+    bandas.add("Abacaxepa");
+
+    System.out.println(bandas);
+
+    //Para incluir uma banda em uma posição específica
+    bandas.add(bandas.indexOf("Abacaxepa"), "Maglore");
+    System.out.println(bandas);
+
+    // Para remover uma banda
+    bandas.remove("Abacaxepa");
+    System.out.println(bandas);
+
+    // Para apagar todas as bandas da lista
+    bandas.clear();
+    System.out.println(bandas);
+  }
+}
+```
 
 
 
