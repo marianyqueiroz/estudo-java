@@ -503,7 +503,94 @@ public class Main {
 ```
 
 # Programação Orientada a Objeto
+- Abstração
+- Classe e objetos
+- Atribuitos, Métodos e Mensagens
+- Herança e Associação
+- Encapsulamento
+- Poliformismo
+- Interfaces
 
+
+## Método construtor
+```java
+//Classe criada
+public class Cao{
+  String nome;
+  String cor;
+  int idade;
+  double peso;
+
+  public Cao(){
+    cor = "Caramelo";
+  }
+
+  public Cao(String nome, int idade){
+    this.nome = nome;
+    this.idade = idade;
+  }
+
+  public void Anda(){
+    System.out.println("Estou andando");
+  }
+
+  public void DadosCao(){
+    System.out.println("Sou o cachorro " + nome + ", e tenho " + idade + " anos");
+  }
+}
+
+//Classe main
+public class Main {
+  public static void main(String[] args) {
+    Cao cachorro = new Cao();
+    cachorro.nome = "Bob";
+    cachorro.Anda();
+
+    Cao dog = new Cao("Lulu", 12);
+    dog.DadosCao();
+  }
+}
+```
+
+```java
+//Classe criada
+public class Cao {
+  private int idade;
+
+  public void setIdade(int i){
+    idade = i;
+  }
+
+  public int getIdade(){
+    return idade;
+  }
+
+  public boolean VerificarIdade(){
+    if(idade > 10){
+      return true;
+    }
+    else {
+      return false;
+    }
+  }
+}
+
+
+//Classe main
+public class Main {
+  public static void main(String[] args) {
+    Cao cachorro = new Cao();
+    cachorro.setIdade(5);
+
+    if(cachorro.VerificarIdade()){
+      System.out.println("ele é idoso");
+    }
+    else {
+      System.out.println("ele é novinho");
+    }
+  }
+}
+```
 
 
   
