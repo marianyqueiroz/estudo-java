@@ -119,7 +119,7 @@ class Main {
 * Ou `||`
 * Negação `!`
 
-```
+```java
 public class Main {
   public static void main(String[] args) {
     int a, b;
@@ -137,7 +137,7 @@ public class Main {
 ```
 ## Estrutura condicional simples
 
-```
+```java
 public class Main {
   public static void main(String[] args) {
     //Notas de faculdade
@@ -152,7 +152,7 @@ public class Main {
 ```
 ## Estrutura condicional composta
 
-```
+```java
 public class Main {
   public static void main(String[] args) {
     //int nota = 6;
@@ -169,7 +169,7 @@ public class Main {
 
 ## Estrutura condicional aninhada
 
-```
+```java
 public class Main {
   public static void main(String[] args) {
     //int nota = 6;
@@ -189,7 +189,7 @@ public class Main {
 
 ## Estrutura de múltipla escolha
 
-```
+```java
 import java.util.Scanner;
 
 public class Main {
@@ -219,7 +219,7 @@ public class Main {
 }
 ```
 
-```
+```java
 //Exemplo prático
 import java.util.Scanner;
 import java.util.Random;
@@ -245,7 +245,7 @@ public class Main {
 # Estrutura de repetição
 ## For
 
-```
+```java
 public class Main {
   public static void main(String[] args) {
     //repetição
@@ -269,7 +269,7 @@ public class Main {
 ## While
 Enquanto for true, a estrutura de repetição em questão irá executar.
 
-```
+```java
 import java.util.Scanner;
 
 public class Main {
@@ -286,7 +286,7 @@ public class Main {
 
 ### Do / While
 
-```
+```java
 import java.util.Scanner;
 
 public class Main {
@@ -304,7 +304,7 @@ public class Main {
 
 ## Estrutura de repetição aninhada
 
-```
+```java
 public class Main {
   public static void main(String[] args) {
     for(int i = 0; i <= 10; i++)
@@ -325,7 +325,7 @@ O método é um bloco de código que executa uma tarefa específica
  - `class`: dar forma/gerar o objeto;
  - `public`: modificador de acesso.
 
-```
+```java
 public class Main {
   public static int  somar(int a, int b){
     return (a+b);
@@ -339,7 +339,7 @@ public class Main {
 # Vetores e Matrizes
 ## Vetor
 O vetor é nada mais do que uma varável que guarda vários valores, como se fosse um prédio com vários andares.
-```
+```java
 public class Main {
   public static void main(String[] args) {
     int valor;
@@ -358,7 +358,7 @@ public class Main {
 ```
 
 ## Matriz
-```
+```java
 public class Main {
   public static void main(String[] args) {
     int valor;
@@ -372,7 +372,7 @@ public class Main {
 ```
 
 ### Exemplo prático
-```
+```java
 public class Main {
   public static void main(String[] args) {
     int[] passarosPorDia = {2, 5, 0, 7, 4, 1, 3, 0, 2, 5, 0, 1, 2, 1};
@@ -402,7 +402,7 @@ public class Main {
 }
 ```
 
-```
+```java
 public class Main {
   public static void main(String[] args) {
     int [][] matriz = {{9,8,7}, {5,3,2}, {6,6,7}};
@@ -458,22 +458,22 @@ public class Main {
 Equanto em um vetor precisamos declarar o tamanho, no array list não precisamos.
 ## Métodos 
 * Para adicionar itens em uma lista
-```
+```java
 estados.add("Pernambuco");
 ```
 
 * Para remover itens de uma lista
-```
+```java
 estados.remove("São Paulo");
 ```
 
 * Para verificar se existe algum item
-```
+```java
 estados.contains("Amazonas");
 ```
 ### Exemplo Prático
 
-```
+```java
 import java.util.ArrayList;
 
 public class Main {
