@@ -592,7 +592,7 @@ public class Main {
 }
 ```
 
-#Herança
+# Herança
 ```java
 class Main{
   public static void main(String[] args){
